@@ -10,21 +10,25 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Bootstrap Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="_/css/mystyles.css">
 </head>
 
 <body id="schedule">
 	<section class="container">
     	<div class="content row">
         	<section class="main col col-lg-8">
-            	
+            	<?php include "_/components/php/header.php" ?>
             </section><!-- main -->
             <section class="sidebar col col-lg-4">
             	
             </section><!-- sidebar -->
         </div><!-- end of content/row -->
+        		<?php  include "_/components/php/footer.php" ?>
     </section><!-- end container -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+<script src="_/components/js/_myscript.js"></script>
 </body>
 </html>
